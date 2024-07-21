@@ -12,6 +12,7 @@ module.exports = class WhatsappWebService {
                 clientId: "client-one"
             }),
             puppeteer: {
+                headless: true,
                 args: ['--no-sandbox', '--disable-setuid-sandbox']
             }
         });
